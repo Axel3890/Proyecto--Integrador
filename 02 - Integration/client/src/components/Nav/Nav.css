@@ -1,0 +1,21 @@
+.nav_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #333;
+    z-index: 2;
+    padding: 15px 0;
+}
+
+.nav_content button {
+    background-color: #199c12;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    &:hover {
+        background-color: #e7e9e7;
+        transition: 0.3s;
+    }
+}

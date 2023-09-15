@@ -1,0 +1,6 @@
+.card_content {
+    background-color: #5e8750;
+    width: 30%;
+    border-radius: 8px;
+    flex-direction: row;
+}

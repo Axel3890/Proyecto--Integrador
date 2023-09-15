@@ -1,0 +1,12 @@
+.search_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.search_bar input {
+  width: 300px;
+  @media screen and (max-width: 900px) {
+    width: 200px;
+  }
+}
